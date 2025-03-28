@@ -1,6 +1,7 @@
 package br.com.alura.screenmatchSpring.principal;
 
 import br.com.alura.screenmatchSpring.model.DadosSerie;
+import br.com.alura.screenmatchSpring.model.DadosTemporada;
 import br.com.alura.screenmatchSpring.service.ConsumoApi;
 import br.com.alura.screenmatchSpring.service.ConverteDados;
 
