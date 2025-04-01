@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.alura</groupId>
-	<artifactId>screenmatchSpring</artifactId>
+	<artifactId>screenmatch</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>screenmatchSpring</name>
-	<description> Projeto Spring sem web</description>
+	<description>Projeto Spring sem web</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -31,8 +31,15 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.15.3</version>
+			<version>2.15.2</version>
 		</dependency>
+
+		<dependency>
+			<groupId>com.theokanning.openai-gpt3-java</groupId>
+			<artifactId>service</artifactId>
+			<version>0.14.0</version>
+		</dependency>
+
 
 	</dependencies>
 
